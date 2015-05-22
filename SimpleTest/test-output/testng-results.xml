@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="215" started-at="2015-05-22T10:40:44Z" finished-at="2015-05-22T10:40:44Z">
+    <groups>
+      <group name="fast">
+        <method signature="AppTest.aFastTest()[pri:0, instance:SimpleTest.SimpleTest.AppTest@69b199]" name="aFastTest" class="SimpleTest.SimpleTest.AppTest"/>
+      </group> <!-- fast -->
+      <group name="slow">
+        <method signature="AppTest.aSlowTest()[pri:0, instance:SimpleTest.SimpleTest.AppTest@69b199]" name="aSlowTest" class="SimpleTest.SimpleTest.AppTest"/>
+      </group> <!-- slow -->
+    </groups>
+    <test name="Test" duration-ms="215" started-at="2015-05-22T10:40:44Z" finished-at="2015-05-22T10:40:44Z">
+      <class name="SimpleTest.SimpleTest.AppTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SimpleTest.SimpleTest.AppTest@69b199]" name="setUp" is-config="true" duration-ms="7" started-at="2015-05-22T13:40:44Z" finished-at="2015-05-22T13:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aFastTest()[pri:0, instance:SimpleTest.SimpleTest.AppTest@69b199]" name="aFastTest" duration-ms="71" started-at="2015-05-22T13:40:44Z" finished-at="2015-05-22T13:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFastTest -->
+        <test-method status="PASS" signature="aSlowTest()[pri:0, instance:SimpleTest.SimpleTest.AppTest@69b199]" name="aSlowTest" duration-ms="2" started-at="2015-05-22T13:40:44Z" finished-at="2015-05-22T13:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSlowTest -->
+      </class> <!-- SimpleTest.SimpleTest.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
